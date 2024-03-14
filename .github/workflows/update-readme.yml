@@ -1,4 +1,4 @@
-name: Greetings
+name: Update-Readme
 
 on:
   push:
