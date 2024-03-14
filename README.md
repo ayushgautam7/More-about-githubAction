@@ -7,3 +7,4 @@ Commit message will print here:
 - 'new message print in new line'
 - 'Update README.md'
 - 'add some info to readme'
+- 'name update'
