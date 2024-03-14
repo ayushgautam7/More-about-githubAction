@@ -21,7 +21,7 @@ jobs:
 
     - name: Update README
       run: |
-        echo "Last Commit: '${{ steps.extract-commit-message.outputs.message }}'" >> README.md
+        echo "- '${{ steps.extract-commit-message.outputs.message }}'" >> README.md
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add README.md
