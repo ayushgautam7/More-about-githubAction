@@ -1,0 +1,30 @@
+name: Greetings
+
+on:
+  push:
+    branches:
+        '*'
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name:  Extract Commit Message
+      id: extract-commit-message
+      run: echo "::set-output name=message::$(git log -1 --pretty=format:"%s")"
+
+    - name: Update README
+      run: |
+        echo "Last Commit: '${{ steps.extract-commit-message.outputs.message }}'" >> README.md
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add README.md
+        git commit -m "Update README with last commit message" || echo "No changes to commit"
+        git push
+      
