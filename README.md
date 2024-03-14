@@ -8,3 +8,4 @@ Commit message will print here:
 - 'Update README.md'
 - 'add some info to readme'
 - 'name update'
+- 'Update README.md'
