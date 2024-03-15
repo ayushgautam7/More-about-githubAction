@@ -9,3 +9,4 @@ Commit message will print here:
 - 'add some info to readme'
 - 'name update'
 - 'Update README.md'
+- 'Create sonarqube.yml'
