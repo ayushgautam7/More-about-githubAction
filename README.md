@@ -10,3 +10,4 @@ Commit message will print here:
 - 'name update'
 - 'Update README.md'
 - 'Create sonarqube.yml'
+- 'Update README.md'
