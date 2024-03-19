@@ -15,3 +15,4 @@ Commit message will print here:
 - 'project key added in sonarqube.yml file'
 - 'Update README with last commit message'
 - 'Create Test.java'
+- 'Update README with last commit message'
