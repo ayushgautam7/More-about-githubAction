@@ -12,3 +12,4 @@ Commit message will print here:
 - 'Create sonarqube.yml'
 - 'Update README.md'
 - 'Update README.md'
+- 'project key added in sonarqube.yml file'
